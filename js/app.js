@@ -34,6 +34,7 @@ window.onload = function() {
 
 
   function changeTextColor(wordCount) {
+    userInput.classList.remove("overLimit");
     if (wordCount > wordLimitNumber) {
       console.log("hi");
       userInput.className = "overLimit";
